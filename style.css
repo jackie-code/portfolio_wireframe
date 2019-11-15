@@ -88,6 +88,7 @@
     background-color: aliceblue;
   }
   @media only screen and (min-width:600px) {
+  
     #thegridofdestiny {
       grid-template-columns: 1fr 1fr;
     }
@@ -96,6 +97,10 @@
   }
   }
   @media only screen and (min-width:1000px) {
+    main {
+        margin-left: 8%;
+        margin-right: 8%;
+      }
     #thegridofdestiny {
       grid-template-columns: 1fr 1fr 1fr;
     }

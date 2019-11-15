@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .heading {
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 30px;
+  }
+  
+  .profile {
+    background-color: rgb(232, 229, 233);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+  
+  nav {
+  display: inline;
+  background-color: rgb(204, 204, 204);
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  
+  li {
+    background-color: rgb(184, 184, 184);
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: #aaa;
+  }
+  
+  .bio {
+    background-color: rgb(240, 240, 251);
+    margin-bottom: 30px;
+  }
+  
+  .contact {
+    background-color: rgb(223, 223, 233);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  
+  #thegridofdestiny {
+    display: grid;
+    min-height: 100%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr;
+    margin: 10px 0 10px;
+  }
+  
+  #thegridofdestiny > div {
+    border: 3px solid black;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .item:hover {
+    transform: scale(1.05);
+    background-color: aliceblue;
+  }
+  @media only screen and (min-width:600px) {
+    #thegridofdestiny {
+      grid-template-columns: 1fr 1fr;
+    }
+    .item:hover {
+    transform: scale(1.02);
+  }
+  }
+  @media only screen and (min-width:1000px) {
+    #thegridofdestiny {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item:hover {
+    transform: scale(1.07);
+  }
+  }
+  
+  

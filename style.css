@@ -19,6 +19,8 @@
   .heading {
     background-color: rgb(219, 219, 219);
     margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Alata', sans-serif;
   }
   
   .profile {
@@ -30,6 +32,10 @@
     margin-right: auto;
     margin-bottom: 80px;
     margin-top: 90px;
+  }
+
+  .bio {
+    font-family: 'Ubuntu', sans-serif;
   }
   
   nav {
@@ -68,6 +74,15 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  .container {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Dosis', sans-serif;
   }
   
   #thegridofdestiny {
@@ -88,6 +103,13 @@
     transform: scale(1.05);
     background-color: aliceblue;
   }
+
+.footer {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Dosis', sans-serif;
+}
+
   @media only screen and (min-width:600px) {
         main {
             margin-left: 10%;

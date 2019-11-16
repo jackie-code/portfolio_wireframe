@@ -10,8 +10,7 @@
   }
 
   body {
-    font-family: "Open Sans",
-    sans-serif; 
+    
     font-size: 20px;
     color: #444;
     text-align: center;
@@ -24,10 +23,19 @@
   }
   
   .heading {
+    font-family: 'Alata', sans-serif;
+    font-family: 'Alatsi', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Allerta', sans-serif;
+    font-family: 'Syncopate', sans-serif;
+    font-family: 'Farro', sans-serif;
     color: white;
     margin-bottom: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Alata', sans-serif;
+    
   }
 
   .profile img {
@@ -45,7 +53,13 @@
 
 
   .bio {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Alatsi', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Julius Sans One', sans-serif;
   }
   
   nav {
@@ -69,7 +83,7 @@
   }
   
   i {
-    font-size: 1.3em;
+    font-size: 1.em;
     color: rgba(214, 255, 250, 0.3);
   }
 
@@ -90,15 +104,23 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-    font-family: 'Ubuntu', sans-serif;
     font-family: 'Alata', sans-serif;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Alatsi', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Julius Sans One', sans-serif;
   }
 
   .container {
-    font-family: 'Ubuntu', sans-serif;
     font-family: 'Alata', sans-serif;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Alatsi', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Julius Sans One', sans-serif;
     color: white;
   }
   
@@ -121,10 +143,14 @@
     background-color: rgba(241, 241, 241, .13);
   }
 
-.footer {
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Alata', sans-serif;
-    font-family: 'Dosis', sans-serif;
+footer {
+  font-family: 'Alata', sans-serif;
+  font-family: 'Alatsi', sans-serif;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Odibee Sans', cursive;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
   @media only screen and (min-width:600px) {

@@ -2,6 +2,13 @@
     box-sizing: border-box;
   }
   
+  html {
+    background-image: url("images/bg.jpg");
+    
+    background-size: cover;
+		background-position: top center;
+  }
+
   body {
     font-family: "Open Sans",
     sans-serif; 
@@ -17,22 +24,25 @@
   }
   
   .heading {
-    background-color: rgb(219, 219, 219);
+    color: white;
     margin-bottom: 30px;
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Alata', sans-serif;
   }
-  
-  .profile {
-    background-color: rgb(232, 229, 233);
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+
+  .profile img {
+    padding: 10px;
+    border-radius: 100%;
+    display: block;
+    width: 10em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
-    margin-top: 90px;
+    margin-top: 110px;
+    border: 1px solid rgba(255, 255, 255, 0.246);
+    background-color: rgba(255, 255, 255, .08);
   }
+
 
   .bio {
     font-family: 'Ubuntu', sans-serif;
@@ -40,10 +50,11 @@
   
   nav {
   display: inline;
-  background-color: rgb(204, 204, 204);
+  color: white;
   }
   
   ul {
+    color: white;
     list-style-type: none;
     display: flex;
     justify-content:space-between;
@@ -53,23 +64,28 @@
     margin-bottom: 30px;
   }
   
-  li {
-    background-color: rgb(184, 184, 184);
+  li:hover {
+    transform: scale(2.05);
   }
   
+  i {
+    font-size: 1.3em;
+    color: rgba(214, 255, 250, 0.3);
+  }
+
   nav,
   footer {
     padding: 1% 0;
-    background-color: #aaa;
+    color: white;
   }
   
   .bio {
-    background-color: rgb(240, 240, 251);
+    color: white;
     margin-bottom: 30px;
   }
   
   .contact {
-    background-color: rgb(223, 223, 233);
+    color: white;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -83,6 +99,7 @@
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Alata', sans-serif;
     font-family: 'Dosis', sans-serif;
+    color: white;
   }
   
   #thegridofdestiny {
@@ -101,7 +118,7 @@
   }
   .item:hover {
     transform: scale(1.05);
-    background-color: aliceblue;
+    background-color: rgba(241, 241, 241, .13);
   }
 
 .footer {
